@@ -9,4 +9,8 @@ start "character-animator" /D "C:\Program Files\Adobe\Adobe Character Animator C
 start "restream" /D "C:\Users\jeremy\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Restream.io" "Restream Chat.appref-ms"
 start "firefox" /D "C:\Program Files\Mozilla Firefox" "firefox.exe" -url "https://tweetdeck.twitter.com/" "https://www.youtube.com/live_dashboard" "https://www.twitch.tv/greaby/dashboard/live"
 
+node "C:\wamp\www\moustache\diff.js" "D:\Documents\greaby\live\gamedev\annonce-discord.txt"
+node "C:\wamp\www\moustache\greaby.js" "D:\Documents\greaby\live\gamedev\annonce-discord.txt"
+node "C:\wamp\www\moustache\twitter.js" "D:\Documents\greaby\live\gamedev\"
+
 exit
